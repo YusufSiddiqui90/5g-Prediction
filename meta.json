@@ -1,0 +1,159 @@
+{
+ "levels": {
+  "Application_Type": [
+   "AR_VR",
+   "Cloud_Gaming",
+   "File_Download",
+   "IoT_Telemetry",
+   "Live_Sports_Streaming",
+   "Social_Media",
+   "Video_Call",
+   "Video_Streaming",
+   "Voice_Call",
+   "Web_Browsing"
+  ],
+  "Operator": [
+   "Airtel",
+   "Jio",
+   "Vi"
+  ],
+  "Circle": [
+   "Assam",
+   "Bihar",
+   "Chhattisgarh",
+   "Delhi",
+   "Gujarat",
+   "Haryana",
+   "Jharkhand",
+   "Karnataka",
+   "Kerala",
+   "Kolkata",
+   "Madhya_Pradesh",
+   "Maharashtra",
+   "Mumbai",
+   "Odisha",
+   "Punjab",
+   "Rajasthan",
+   "Tamil_Nadu",
+   "UP_East",
+   "UP_West",
+   "West_Bengal"
+  ],
+  "City_Tier": [
+   "Metro",
+   "Tier_2",
+   "Tier_3"
+  ],
+  "Area_Type": [
+   "Dense_Urban",
+   "Highway",
+   "Railway_Corridor",
+   "Rural",
+   "Suburban",
+   "Urban"
+  ],
+  "Network_Mode": [
+   "5G_NSA",
+   "5G_SA"
+  ],
+  "Device_Category": [
+   "Budget_5G",
+   "FWA_Router",
+   "Flagship_5G",
+   "IoT_Module",
+   "Mid_5G"
+  ],
+  "Plan_Type": [
+   "Enterprise",
+   "Postpaid",
+   "Prepaid"
+  ],
+  "Indoor_Outdoor": [
+   "Indoor",
+   "Outdoor"
+  ],
+  "Weather": [
+   "Clear",
+   "Cloudy",
+   "Fog",
+   "Heavy_Rain"
+  ],
+  "Event_Context": [
+   "Concert",
+   "Election_Rally",
+   "Festival",
+   "IPL_Match",
+   "Normal",
+   "Office_Rush"
+  ]
+ },
+ "ranges": {
+  "Signal_dBm": [
+   -123.0,
+   -40.0,
+   -81.0
+  ],
+  "Latency_ms": [
+   1.0,
+   110.0,
+   55.0
+  ],
+  "Req_Mbps": [
+   0.001,
+   135.0,
+   3.7
+  ],
+  "Resource_Alloc_pct": [
+   50.0,
+   90.0,
+   70.0
+  ],
+  "Jitter_ms": [
+   1.0,
+   146.5902921,
+   28.944095005
+  ],
+  "Cell_Load_pct": [
+   5.0,
+   100.0,
+   58.72
+  ],
+  "Active_Users_In_Cell": [
+   5.0,
+   343.0,
+   86.0
+  ],
+  "Mobility_Speed_kmph": [
+   0.0,
+   119.99,
+   38.47
+  ]
+ },
+ "importance": {
+  "Application_Type": 1.1060802208135685,
+  "Jitter_ms": 0.35954823766845917,
+  "Active_Users_In_Cell": 0.0364703227176623,
+  "Event_Context": 0.019069691299019476,
+  "Indoor_Outdoor": 0.01698450125352402,
+  "Plan_Type": 0.005284751272457089,
+  "Weather": 0.0026596773744221127,
+  "Area_Type": 0.0026001920278863797,
+  "Network_Mode": 0.0016418781727688032,
+  "Cell_Load_pct": 0.0007230852440135068,
+  "City_Tier": 0.00016867059561890643,
+  "Signal_dBm": 0.00016844175666482405,
+  "Req_Mbps": 0.00014192673182415275,
+  "Resource_Alloc_pct": 0.00010785776479815823,
+  "Latency_ms": 9.70832612523879e-05,
+  "Operator": 8.393327860104864e-05,
+  "Circle": -7.507687362170075e-05,
+  "Device_Category": -9.271651964874265e-05,
+  "Mobility_Speed_kmph": -0.00032333106104235715
+ },
+ "metrics": {
+  "r2": 0.6602976189195249,
+  "acc": 0.6753,
+  "f1": 0.6088140155507573,
+  "rows": 50000
+ }
+}
