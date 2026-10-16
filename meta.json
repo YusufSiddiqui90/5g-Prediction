@@ -155,5 +155,209 @@
   "acc": 0.6753,
   "f1": 0.6088140155507573,
   "rows": 50000
+ },
+ "app_typical": {
+  "AR_VR": {
+   "Signal_dBm": -80.0,
+   "Latency_ms": 55.0,
+   "Jitter_ms": 23.11,
+   "Cell_Load_pct": 59.45,
+   "Active_Users_In_Cell": 89.0,
+   "Mobility_Speed_kmph": 40.14,
+   "Req_Mbps": 3.7,
+   "Resource_Alloc_pct": 70.0
+  },
+  "Cloud_Gaming": {
+   "Signal_dBm": -82.0,
+   "Latency_ms": 55.0,
+   "Jitter_ms": 22.56,
+   "Cell_Load_pct": 59.57,
+   "Active_Users_In_Cell": 89.0,
+   "Mobility_Speed_kmph": 38.86,
+   "Req_Mbps": 3.8,
+   "Resource_Alloc_pct": 70.0
+  },
+  "File_Download": {
+   "Signal_dBm": -80.0,
+   "Latency_ms": 56.0,
+   "Jitter_ms": 30.72,
+   "Cell_Load_pct": 58.99,
+   "Active_Users_In_Cell": 86.0,
+   "Mobility_Speed_kmph": 39.44,
+   "Req_Mbps": 3.6,
+   "Resource_Alloc_pct": 70.0
+  },
+  "IoT_Telemetry": {
+   "Signal_dBm": -82.0,
+   "Latency_ms": 57.5,
+   "Jitter_ms": 32.25,
+   "Cell_Load_pct": 57.74,
+   "Active_Users_In_Cell": 84.0,
+   "Mobility_Speed_kmph": 37.18,
+   "Req_Mbps": 3.5,
+   "Resource_Alloc_pct": 70.0
+  },
+  "Live_Sports_Streaming": {
+   "Signal_dBm": -81.0,
+   "Latency_ms": 56.0,
+   "Jitter_ms": 30.44,
+   "Cell_Load_pct": 58.57,
+   "Active_Users_In_Cell": 86.0,
+   "Mobility_Speed_kmph": 38.16,
+   "Req_Mbps": 3.72,
+   "Resource_Alloc_pct": 70.0
+  },
+  "Social_Media": {
+   "Signal_dBm": -81.0,
+   "Latency_ms": 55.0,
+   "Jitter_ms": 30.8,
+   "Cell_Load_pct": 58.92,
+   "Active_Users_In_Cell": 86.0,
+   "Mobility_Speed_kmph": 38.32,
+   "Req_Mbps": 3.8,
+   "Resource_Alloc_pct": 70.0
+  },
+  "Video_Call": {
+   "Signal_dBm": -81.0,
+   "Latency_ms": 56.0,
+   "Jitter_ms": 21.99,
+   "Cell_Load_pct": 58.6,
+   "Active_Users_In_Cell": 85.0,
+   "Mobility_Speed_kmph": 38.7,
+   "Req_Mbps": 3.6,
+   "Resource_Alloc_pct": 70.0
+  },
+  "Video_Streaming": {
+   "Signal_dBm": -81.0,
+   "Latency_ms": 55.0,
+   "Jitter_ms": 30.67,
+   "Cell_Load_pct": 58.51,
+   "Active_Users_In_Cell": 85.0,
+   "Mobility_Speed_kmph": 38.81,
+   "Req_Mbps": 3.8,
+   "Resource_Alloc_pct": 70.0
+  },
+  "Voice_Call": {
+   "Signal_dBm": -82.0,
+   "Latency_ms": 55.0,
+   "Jitter_ms": 21.74,
+   "Cell_Load_pct": 57.82,
+   "Active_Users_In_Cell": 84.0,
+   "Mobility_Speed_kmph": 38.19,
+   "Req_Mbps": 3.7,
+   "Resource_Alloc_pct": 70.0
+  },
+  "Web_Browsing": {
+   "Signal_dBm": -82.0,
+   "Latency_ms": 55.0,
+   "Jitter_ms": 31.18,
+   "Cell_Load_pct": 59.08,
+   "Active_Users_In_Cell": 87.0,
+   "Mobility_Speed_kmph": 38.02,
+   "Req_Mbps": 3.7,
+   "Resource_Alloc_pct": 70.0
+  }
+ },
+ "global_typical": {
+  "Signal_dBm": -81.0,
+  "Latency_ms": 55.0,
+  "Jitter_ms": 28.94,
+  "Cell_Load_pct": 58.72,
+  "Active_Users_In_Cell": 86.0,
+  "Mobility_Speed_kmph": 38.47,
+  "Req_Mbps": 3.7,
+  "Resource_Alloc_pct": 70.0
+ },
+ "crowd": {
+  "Quiet": {
+   "Cell_Load_pct": 25.1,
+   "Active_Users_In_Cell": 24,
+   "Jitter_ms": 18.0,
+   "share": 17.1
+  },
+  "Normal": {
+   "Cell_Load_pct": 48.8,
+   "Active_Users_In_Cell": 66,
+   "Jitter_ms": 24.9,
+   "share": 35.0
+  },
+  "Busy": {
+   "Cell_Load_pct": 69.1,
+   "Active_Users_In_Cell": 122,
+   "Jitter_ms": 33.9,
+   "share": 28.2
+  },
+  "Packed": {
+   "Cell_Load_pct": 90.9,
+   "Active_Users_In_Cell": 183,
+   "Jitter_ms": 50.0,
+   "share": 19.7
+  }
+ },
+ "by": {
+  "Area_Type": {
+   "Dense_Urban": {
+    "Cell_Load_pct": 75.0,
+    "Active_Users_In_Cell": 224.0,
+    "Jitter_ms": 36.22
+   },
+   "Highway": {
+    "Cell_Load_pct": 59.62,
+    "Active_Users_In_Cell": 94.0,
+    "Jitter_ms": 31.34
+   },
+   "Railway_Corridor": {
+    "Cell_Load_pct": 69.57,
+    "Active_Users_In_Cell": 138.0,
+    "Jitter_ms": 35.89
+   },
+   "Rural": {
+    "Cell_Load_pct": 45.01,
+    "Active_Users_In_Cell": 26.0,
+    "Jitter_ms": 23.81
+   },
+   "Suburban": {
+    "Cell_Load_pct": 54.96,
+    "Active_Users_In_Cell": 65.0,
+    "Jitter_ms": 26.6
+   },
+   "Urban": {
+    "Cell_Load_pct": 64.82,
+    "Active_Users_In_Cell": 129.0,
+    "Jitter_ms": 29.83
+   }
+  },
+  "Event_Context": {
+   "Concert": {
+    "Cell_Load_pct": 78.4,
+    "Active_Users_In_Cell": 114.0,
+    "Jitter_ms": 44.71
+   },
+   "Election_Rally": {
+    "Cell_Load_pct": 78.8,
+    "Active_Users_In_Cell": 116.0,
+    "Jitter_ms": 50.0
+   },
+   "Festival": {
+    "Cell_Load_pct": 79.83,
+    "Active_Users_In_Cell": 121.0,
+    "Jitter_ms": 50.0
+   },
+   "IPL_Match": {
+    "Cell_Load_pct": 83.96,
+    "Active_Users_In_Cell": 125.0,
+    "Jitter_ms": 50.0
+   },
+   "Normal": {
+    "Cell_Load_pct": 51.68,
+    "Active_Users_In_Cell": 76.0,
+    "Jitter_ms": 24.03
+   },
+   "Office_Rush": {
+    "Cell_Load_pct": 66.5,
+    "Active_Users_In_Cell": 100.0,
+    "Jitter_ms": 32.66
+   }
+  }
  }
 }
