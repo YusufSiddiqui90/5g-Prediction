@@ -592,5 +592,5 @@ show(f"""
 <details><summary>What is tower (cell) load?</summary><p>It is the share of a mobile tower's capacity currently in use. The busier the tower, the less room there is for each user.</p></details>
 <details><summary>What is Standalone (SA) vs Non-standalone (NSA) 5G?</summary><p>SA runs entirely on a 5G core network. NSA uses a 5G radio connection anchored to a 4G core. SA generally scores slightly higher in this data.</p></details>
 <details><summary>What is QoE?</summary><p>Quality of Experience is a 1 to 5 score of how good the service feels to the user. It is not the same as raw speed.</p></details>
-<div class="foot">SignalScope · Built with Python, scikit-learn and Streamlit · Operator logos are simplified illustrations in brand colours.</div>
+<div class="foot"></div>
 """)
